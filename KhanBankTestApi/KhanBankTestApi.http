@@ -1,0 +1,6 @@
+@KhanBankTestApi_HostAddress = http://localhost:8081
+
+GET {{KhanBankTestApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
