@@ -93,7 +93,7 @@ namespace KhanBankTestApi.KhanBank
         #endregion
 
         #region Get Statement
-        [HttpGet("getstatement")]
+        [HttpPost("getstatement")]
         public async Task<StatementResponse> GetStatement([FromBody] StatementModel login)
         {
             try
