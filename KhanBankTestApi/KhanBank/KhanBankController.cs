@@ -61,7 +61,7 @@ namespace KhanBankTestApi.KhanBank
 
         #region Get Account
 
-        [HttpGet("getaccount")]
+        [HttpPost("getaccount")]
         public async Task<AccountsResponse> GetAccount([FromBody] AccountModel login)
         {
             try
